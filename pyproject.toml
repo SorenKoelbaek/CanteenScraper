@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "canteenscraper"
+version = "0.1.0"
+description = ""
+authors = ["sorenkoelbaek <soren@sorenkoelbaek.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.109.0"
+uvicorn = "^0.25.0"
+pydantic = "^2.5.3"
+beautifulsoup4 = "^4.12.2"
+bs4 = "^0.0.1"
+requests = "^2.31.0"
+python-dateutil = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
